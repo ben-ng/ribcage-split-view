@@ -1,0 +1,33 @@
+{
+  "name": "ribcage-split-view",
+  "version": "1.0.0",
+  "description": "A responsive navigation controller for showing two related views",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ben-ng/ribcage-split-view.git"
+  },
+  "keywords": [
+    "ribcage",
+    "navgiation",
+    "backbone",
+    "split",
+    "view",
+    "UISplitViewController"
+  ],
+  "author": "Ben Ng <me@benng.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ben-ng/ribcage-split-view/issues"
+  },
+  "homepage": "https://github.com/ben-ng/ribcage-split-view",
+  "dependencies": {
+    "ribcage-switcher": "^0.1.4"
+  }
+}
