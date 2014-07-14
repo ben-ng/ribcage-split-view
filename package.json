@@ -1,6 +1,6 @@
 {
   "name": "ribcage-split-view",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A responsive navigation controller for showing two related views",
   "main": "index.js",
   "directories": {
