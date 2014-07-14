@@ -1,2 +1,6 @@
 /* Styles for the RibcageSplitView component */
 @import 'ribcage-switcher';
+
+.ribcage-split-view .pane-0 {
+  transition: width 0.3s;
+}
