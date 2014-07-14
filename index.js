@@ -43,11 +43,14 @@ var RibcageSplitView = Base.extend({
 
       this.$holder.width(this.paneWidth)
     }
+
+    // Set this after the first width is set to prevent that weird initial resizing
+    this.$('.pane-0').css({transition: 'width 0.3s'})
   }
 , push: function (view) {
     if(this.currentPane == 1) {
       this.setPane(1, view)
-      this['$pane1'].scrollTop(0);
+      this.$pane1.scrollTop(0);
     }
     else {
       pushProxy.call(this, view)
